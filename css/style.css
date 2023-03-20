@@ -130,32 +130,16 @@ img {
  ************************************************/
 
 
- @media screen and (min-width: 480px) and (max-width: 768px) {
+ @media screen and (max-width: 1160px) {
     .container {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1160px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .lessons .col {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .steps .col {
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left, .why-us .col-right {
         width: 100%;
     }
 }
@@ -173,11 +157,5 @@ img {
         margin-top: -3rem;
         margin-bottom: 0;
         padding: 3rem 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .why-us .col-left, .why-us .col-right {
-        width: 100%;
     }
 }
